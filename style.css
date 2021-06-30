@@ -1,33 +1,48 @@
-/* font-family: 'Cinzel', serif;
-font-family: 'PT Serif', serif; */
+/** 
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+**/
 
 body {
-  background-color: #ffffff;
-  font-family: "PT Serif", serif;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-h1 {
-  font-size: 96px;
-  font-weight: normal;
-  color: #414141;
+header {
+  background: #54008c;
+}
 
+.nav-wrapper {
+  padding: 13px;
   text-align: center;
 }
 
-.wrapper3 {
-  font-size: 18px;
-  max-width: 630px;
-  text-align: left;
-  margin: 0 auto;
+.nav-item {
+  color: white;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  padding: 15px;
 }
 
-h1,
-h2 {
-  text-align: center;
-  font-family: "Cinzel", serif;
+.nav-item:hover {
+  background: white;
+  color: black;
 }
 
 header p {
-  text-align: center;
-  font-size: 30px;
+  margin: 0;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: #54008c;
 }
