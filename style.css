@@ -50,10 +50,14 @@ header p {
 
 p {
   line-height: 1.6;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 a {
   color: #54008c;
+  font-size: 22px;
+  font-weight: 200;
 }
 
 a:hover {
