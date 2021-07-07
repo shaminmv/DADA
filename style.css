@@ -42,7 +42,7 @@ header p {
   margin: 0;
 }
 
-main {
+.main-wrapper {
   max-width: 700px;
   margin: 0 auto;
   padding: 17px;
@@ -56,7 +56,24 @@ a {
   color: #54008c;
 }
 
-.main-image {
+a:hover {
+  background: #54008c;
+  color: white;
+}
+
+.section-space {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 3px;
+}
+
+img {
   max-width: 100%;
-  border: 10px solid #8855aa;
+  border: 15px solid #54008c;
 }
